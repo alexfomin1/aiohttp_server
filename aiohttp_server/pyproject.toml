@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "aiohttp-server"
+version = "0.1.0"
+description = ""
+authors = ["alex <me@fomin3.ru>"]
+readme = "README.md"
+packages = [{include = "aiohttp_server"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiohttp-jinja2 = "^1.5"
+aiohttp = "^3.8.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
