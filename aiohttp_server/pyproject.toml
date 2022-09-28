@@ -10,6 +10,7 @@ packages = [{include = "aiohttp_server"}]
 python = "^3.10"
 aiohttp-jinja2 = "^1.5"
 aiohttp = "^3.8.3"
+PyYAML = "^6.0"
 
 
 [build-system]
