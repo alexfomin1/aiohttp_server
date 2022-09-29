@@ -1,5 +1,5 @@
 common:
   port: 8080
 postgres:
-  database_url: postgres://forum_user:forum_password@localhost:8000/forum
+  database_url: postgres://postgres:postgres@localhost:5432/forum
   require_ssl: false
